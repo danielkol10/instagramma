@@ -1,10 +1,10 @@
 class PicsController < ApplicationController
-  def index
 
+  def index
   end
 
   def new
-    @pics = Pic.new
+    @pic = Pic.new
   end
 
   def create
